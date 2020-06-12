@@ -6,7 +6,8 @@ set relativenumber
 "always shows location in file
 set ruler
 "set tabs to spaces 
-set tabstop=4 shiftwidth=4
+set expandtab
+set tabstop=4 shiftwidth=4 
 "syntax processing
 syntax enable
 "allow text to go off edge of screen
