@@ -29,7 +29,7 @@ export ZSH="/Users/blakemajor/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="ys"
 
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"
@@ -42,7 +42,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew zsh-autosuggestions)
+plugins=(git brew zsh-autosuggestions tmux)
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
@@ -57,7 +57,7 @@ alias python="python3"
 alias zshconf="nvim ~/.zshrc"
 alias vimconf="nvim ~/.config/nvim/init.vim"
 alias tmuxconf="nvim ~/.tmux.conf"
-
+alias srcz="source ~/.zshrc"
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
